@@ -9,7 +9,7 @@ static int numStars = 25;
 public void setup() {
   
   for (int i = 0; i < numStars; i++) {
-    stars.add(new Star(Math.random() * width, Math.random() * height));
+    stars.add(new Star(Math.random() * 800, Math.random() * 800));
   }
   
   size(800, 800);
