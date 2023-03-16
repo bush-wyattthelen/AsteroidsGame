@@ -65,7 +65,7 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
     beginShape();
     for (int nI = 0; nI < corners; nI++)
     {
-      vertex(xCorners[nI], yCorners[nI]);
+      vertex((int)(xCorners[nI]), (int)(yCorners[nI]));
     }
     endShape(CLOSE);
 
